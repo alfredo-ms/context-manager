@@ -11,7 +11,3 @@ The library have 2 simple methods:
 > The method `listen()` returns the last data of that `key` with the attribute `lastValue`.
 
 - `dispatch(key, data)`: dispatch a certain data for a specific key;
-
-> **Author**: Alfredo Magnani Sakatauskas
-
-> **Special Thanks**: Wiley Marques / Mario Alberto dos Santos
