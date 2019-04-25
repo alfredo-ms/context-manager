@@ -8,7 +8,7 @@ The library have 2 simple methods:
 
 - `listen(key, callback)`: listen to a specific `key` and call a `callback` everytime a dispatch on that key occur;
 
-> You can get the last data dispatched using the method `lastValue()`.
+> The method `listen()` returns the last data of that `key` with the attribute `lastValue`.
 
 - `dispatch(key, data)`: dispatch a certain data for a specific key;
 
